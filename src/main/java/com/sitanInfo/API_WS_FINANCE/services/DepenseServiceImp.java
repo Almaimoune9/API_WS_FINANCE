@@ -1,7 +1,6 @@
 package com.sitanInfo.API_WS_FINANCE.services;
 
 import com.sitanInfo.API_WS_FINANCE.model.Depense;
-import com.sitanInfo.API_WS_FINANCE.model.Recettes;
 import com.sitanInfo.API_WS_FINANCE.repository.DepenseRepository;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;

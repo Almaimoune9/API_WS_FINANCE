@@ -30,9 +30,7 @@ public class Depense extends AbstractEntity{
     private String creancier;
     private Integer etat;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "enseignant")
-    private EEnseignant enseignant;
+
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "honoraire")
